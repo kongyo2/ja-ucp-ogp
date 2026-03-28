@@ -4,6 +4,8 @@
 
 アンサイクロペディアは OGP メタタグに非対応のため、Twitter/X にリンクを貼ってもリンクカードが表示されない。本ツールは記事情報を含む OGP 画像 (1200x630px) を生成し、ツイートに画像として添付することでこの問題を回避する。
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/kongyo2/ja-ucp-ogp)
+
 ## インストール
 
 ```bash
