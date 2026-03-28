@@ -83,27 +83,6 @@ ja-ucp-ogp -t "日本" -d "極東の島国。" -i ./photo.jpg
 
 見つからない場合は `sans-serif` にフォールバックする。`-f` オプションで任意のフォントファイルを指定可能。
 
-## 開発
-
-```bash
-git clone https://github.com/kongyo2/ja-ucp-ogp.git
-cd ja-ucp-ogp
-npm install
-```
-
-### スクリプト
-
-| コマンド                                | 説明                               |
-| --------------------------------------- | ---------------------------------- |
-| `npm run generate`                      | 開発用実行 (tsx)                   |
-| `npm run generate -- -t "..." -d "..."` | CLI モードで開発用実行             |
-| `npm run build`                         | TypeScript ビルド (`dist/` に出力) |
-| `npm run typecheck`                     | 型チェックのみ (出力なし)          |
-| `npm run lint`                          | oxlint でリント                    |
-| `npm run lint:strict`                   | 警告もエラー扱いでリント           |
-| `npm run format`                        | Prettier でフォーマット            |
-| `npm run format:check`                  | フォーマットチェック               |
-
 
 ## ライセンス
 
