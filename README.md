@@ -104,14 +104,6 @@ npm install
 | `npm run format`                        | Prettier でフォーマット            |
 | `npm run format:check`                  | フォーマットチェック               |
 
-## npm への公開
-
-GitHub Actions で手動トリガー:
-
-1. リポジトリの Settings > Secrets に `NPM_TOKEN` を設定
-2. Actions タブ > "Publish to npm" > "Run workflow"
-3. `tag` に dist-tag を指定 (`latest`, `beta` 等)
-4. `dry-run` を有効にすると実際の公開をスキップして検証のみ行う
 
 ## ライセンス
 
