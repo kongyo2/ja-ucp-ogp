@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["promise", "import", "node", "unicorn", "react", "typescript"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn",
+    "perf": "warn"
+  },
+  "rules": {
+    "no-console": "off",
+    "typescript/no-explicit-any": "error",
+    "react/react-in-jsx-scope": "off"
+  },
+  "env": {
+    "node": true
+  },
+  "ignorePatterns": ["node_modules", "dist", "build", "output", "coverage", "*.min.js"]
+}
