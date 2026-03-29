@@ -15,7 +15,7 @@ npm install -g @kongyo2/ja-ucp-ogp
 または npx で直接実行:
 
 ```bash
-npx @kongyo2/ja-ucp-ogp -t "記事名" -d "概要文"
+npx @kongyo2/ja-ucp-ogp
 ```
 
 ## 使い方
